@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.form-card{
+    /* position: relative; */
+    width: 400px;
+    height: auto;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 5px rgb(49, 49, 49);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.delete{
+    background: #162938;
+    color: white;
+    padding: 11px 90px;
+    border-radius: 8px;
+    width: 100%;
+}
+.delete:hover{
+    background: #1f3a4e;
+}
+
+.btn {
+    width: 230px;
+    padding: 10px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+
+}
+form input{
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    width: 400px;
+    background: transparent;
+}
+.obj{
+    box-shadow: 0 0 5px rgb(49, 49, 49);
+    border-radius: 8px;
+    height: 900px;
+    width: 600px;
+}
